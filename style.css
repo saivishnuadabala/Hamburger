@@ -1,0 +1,29 @@
+.ham{
+    width: 200px;
+    /* border: 2px solid; */
+    position: absolute;
+    right: 100%;
+    transition: 2s; 
+    background-color: lightcyan;
+    border-radius: 10px;
+}
+#check:checked + .ham{
+    position: absolute;
+    transform: translateX(200px);
+}
+#check{
+    display: none;
+}
+ul li{
+    list-style: none;
+    width: 10px;
+}
+body{
+    /* margin: 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+}
+p{
+    background-color: lightblue;
+    text-align: center;
+}
